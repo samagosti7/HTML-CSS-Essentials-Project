@@ -63,6 +63,11 @@ h1{
 .answer {
     color:#01A66f;
     text-align:center;
+    /* display:inline-block; */
+    width:18%;
+    margin: 0 auto;
+    
+
 }
 
 .answer:hover {
@@ -75,6 +80,8 @@ h2 {
     text-align:center;
     background-color:ghostwhite;
     padding:1%;
+    width:50%;
+    margin: 0 auto;
 }
 
 
