@@ -93,8 +93,6 @@ hr {
 
 /* riddles */
 .riddle {
-    /* margin-top:1%;
-    margin-bottom:1%; */
     text-align:center;
     color:#ffc06e;
     width:75%;
@@ -112,8 +110,6 @@ hr {
     padding-top:1%;
     padding-bottom:1%;
     font-size:1.3em;
-    
-
 }
 
 .answer:hover {
@@ -160,7 +156,6 @@ h2 {
     width:550px;
     font-size:1.3em;
 }
-
 
 #question::-webkit-input-placeholder {
     position:relative;
