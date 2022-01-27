@@ -59,7 +59,25 @@ hr {
     border-bottom:solid 3px #3a3a3a;
 
 }
-/* launch page */
+/* hero image */
+
+#container{
+    height:300px;
+    width:700px;
+    margin:0 auto;
+    padding:0;
+}
+ #hero-image{
+     height:80%;
+     width:100%;
+     background-image:url(../images/bkg.jpg);
+     background-position:center;
+     background-size:cover;
+     background-repeat:no-repeat;
+     /* object-fit:cover; */
+     padding:0;
+     margin:0;
+ }
 
 /* riddles */
 .riddle {
@@ -71,7 +89,6 @@ hr {
 .answer {
     color:#01A66f;
     text-align:center;
-    /* display:inline-block; */
     width:18%;
     margin: 0 auto;
     
@@ -90,8 +107,92 @@ h2 {
     padding:1%;
     width:50%;
     margin: 0 auto;
+    border-radius:10px;
+}
+#home-h2{
+    font-size:200%;
+    color:#75ce9f;
+    text-align:center;
+    background-color:ghostwhite;
+    padding:0;
+    width:50%;
+    margin: 0 auto;
+    border-radius:10px;
+}
 }
 
+/* form */
+#first-name {
+    background-color:ghostwhite;
+    margin:1%;
+}
+
+#last-name {
+    background-color:ghostwhite;
+    margin:1%;
+}
+
+#username {
+    background-color:ghostwhite;
+    margin:1%;
+}
+
+#email {
+    background-color:ghostwhite;
+    margin:1%;  
+}
+
+#question {
+    background-color:ghostwhite;
+    margin:1%;  
+    height:200px;
+    width:550px;
+    font-size:1.3em;
+    
+    /* copied */
+    display:flex; 
+    flex-direction : column; 
+    align-items: end; 
+    justify-content: flex-end;
+    
+}
+
+
+#question::-webkit-input-placeholder {
+    position:relative;
+    top:-85px;
+}
+
+
+#answer {
+    background-color:ghostwhite;
+    margin:1%;  
+    height:50px;
+    width:300px;
+    font-size:1.2em;
+    /* copied */
+    display:flex; 
+    flex-direction : column; 
+    align-items: end; 
+    justify-content: flex-end;
+}
+
+#answer::-webkit-input-placeholder {
+    position:relative;
+    top:-12px;
+}
+
+input[type="text"]::placeholder {  
+    float:top;
+    vertical-align:top;
+    text-align:top;
+}
+
+section form label {
+    color:#ffc06e;
+    padding:10px;
+    font-size:1.2em;
+}
 
 /* footer */
 footer {
@@ -116,3 +217,4 @@ footer ul i {
     padding:5%;
     color:#3a3a3a;
 }
+
