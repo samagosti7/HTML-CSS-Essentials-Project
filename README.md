@@ -25,7 +25,7 @@ The final link will lead you to page 3, the form page where a user would theoret
 ##Bugs
 At the very bottom of the page, there are two small margin-like areas of green surrounding the social media footer. The area at the top of the footer is intentional, however the area at the bottom is not, and I consider it a bug. I entered 0 margin and padding for the overarching html and body elements, and inspecting the area on dev-tools yielded no hints to where it comes from.
 
-Mysterious small grey border around the dividing line (i.e., the styled hr) separating nav bar from hero image/header on home page.  
+Mysterious small grey border around the dividing line (i.e., the styled hr with id "hero-hr") separating nav bar from hero image/header on home page. Less noticeable grey semi-border on the more general styler hr, not there by design.  
 
 
 
