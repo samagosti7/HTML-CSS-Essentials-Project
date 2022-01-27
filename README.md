@@ -1,9 +1,10 @@
-Table of Contents
-Project Overview:  Line 
-Project Motivation: Line
-Directions/Description:  Line
-Validation Screenshots:  Line
-Credits:  Line
+Table of Contents:
+    Project Overview:  Line 
+    Project Motivation: Line
+    Directions/Description:  Line
+    Validation Screenshots:  Line
+    Bugs:  Line
+    Credits:  Line
 
 #Milestone Project 1--HTML-CSS essentials project
 
@@ -22,7 +23,11 @@ The final link will lead you to page 3, the form page where a user would theoret
 ##Validation Screenshots--before and after
 
 ##Bugs
-At the very bottom of the page, there are two small margin-like areas of green surrounding the social media footer. The area at the top of the footer is intentional, however the area at the bottom is not, and I consider it a bug. I entered 0 margin and padding for the overarching html and body elements, and inspecting the area on dev-tools yielded no hints to where it comes from.  
+At the very bottom of the page, there are two small margin-like areas of green surrounding the social media footer. The area at the top of the footer is intentional, however the area at the bottom is not, and I consider it a bug. I entered 0 margin and padding for the overarching html and body elements, and inspecting the area on dev-tools yielded no hints to where it comes from.
+
+Mysterious small grey border around the dividing line (i.e., the styled hr) separating nav bar from hero image/header on home page.  
+
+
 
 ##Credits
 Code on lines 160-163 and 174-183 were taken from google searches on the subject of placeholder text.  Credit to https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1

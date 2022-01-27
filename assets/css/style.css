@@ -12,7 +12,7 @@ nav ul{
     background: rgb(1,166,111);
     background: radial-gradient(circle, rgba(1,166,111,1) 40%, rgba(58,58,58,1) 100%);
     margin:0;
-    padding:0;
+    padding:0 0 0.8% 0;
     text-align:center;
 }
 
@@ -72,7 +72,7 @@ hr {
     padding:0;
 }
  #hero-image{
-     height:80%;
+     height:83%;
      width:100%;
      background-image:url(../images/bkg.jpg);
      background-position:center;
@@ -236,7 +236,7 @@ footer ul > li {
 footer ul i {
     font-size:160%;
     margin:1%;
-    padding:5%;
+    padding:2.5%;
     color:#3a3a3a;
 }
 
