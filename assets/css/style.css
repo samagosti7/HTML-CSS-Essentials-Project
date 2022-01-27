@@ -9,7 +9,8 @@ body{
 /* header */
 nav ul{
     list-style:none;
-    background-color:#01A66f;
+    background: rgb(1,166,111);
+    background: radial-gradient(circle, rgba(1,166,111,1) 40%, rgba(58,58,58,1) 100%);
     margin:0;
     padding:0;
     text-align:center;
@@ -58,13 +59,15 @@ h1{
 
 hr {
     border-bottom:solid 3px #3a3a3a;
+    margin:0;
+    padding:0;
 
 }
 /* hero image */
 
 #container{
     height:520px;
-    width:1246px;
+    width:1263px;
     margin:0 auto;
     padding:0;
 }
@@ -91,6 +94,15 @@ hr {
      color:#ffc06e;
  }
 
+ #home-hr{
+    border-bottom:solid 3px ghostwhite;
+    margin:0;
+    padding:0;
+    background: rgb(1,166,111);
+    background: radial-gradient(circle, rgba(1,166,111,1) 40%, rgba(58,58,58,1) 100%);
+
+ }
+
 /* riddles */
 .riddle {
     text-align:center;
@@ -113,7 +125,7 @@ hr {
 }
 
 .answer:hover {
-    color:#ffc06e;
+        color:#ffc06e;
 }
 
 h2 {
@@ -198,7 +210,7 @@ section form{
 }
 
 #form-container{
-    outline:solid 3px #ffc06e;
+    outline:solid 3px #3a3a3a;
     padding:1%;
     width:60%;
     margin:0 auto;

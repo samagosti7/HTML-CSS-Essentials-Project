@@ -31,5 +31,10 @@ Header content closely follows the header laid out in the Code Institute Lesson 
 
 Footer content closely follows and is copied from the footer created in the Love Running project, which was a quasi-project to help us learn the basics of creating a website, completed just before starting this project. Credit to https://codeinstitute.net/se/
 
+Background gradient for nav bar taken from https://cssgradient.io/
+
+Overall complemenetary color scheme taken from https://colors.dopely.top/inside-colors/green-color-palette-inspirations-with-names-hex-codes/
+
+
 
 
