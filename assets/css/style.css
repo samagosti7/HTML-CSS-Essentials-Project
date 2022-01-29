@@ -359,10 +359,6 @@ h2 {
     font-family:sans-serif;
 }
 
-label {
-    text-align:left;
-}
-
 #answer {
     background-color:ghostwhite;
     margin:1%;  
@@ -372,15 +368,8 @@ label {
 }
 
 #answer::-webkit-input-placeholder {
-    position:relative;
-    top:-12px;
+    font-family:sans-serif;
 }
-
-/* input[type="text"]::placeholder {  
-    float:top;
-    vertical-align:top;
-    text-align:top;
-} */
 
 section form label {
     color:#ffc06e;
