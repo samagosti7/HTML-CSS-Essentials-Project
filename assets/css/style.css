@@ -1,4 +1,6 @@
 /* imports */
+
+/* reset default margins for page */
 body{
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@ body{
     background-color:#01A66f;
 }
 
-/* headers */
+/* nav */
 nav ul{
     list-style:none;
     background: rgb(1,166,111);
@@ -41,7 +43,7 @@ nav a:hover{
     padding:2px;
     border-radius:10px;
 }
-
+/* headers and hr's*/
 header div{
     margin:0;
     padding:1%;
@@ -50,6 +52,7 @@ header div{
     opacity:80%;
 
 }
+
 h1{
     margin:0;
     height:20px;
@@ -84,28 +87,9 @@ h2 {
     background: radial-gradient(circle, rgba(1,166,111,1) 40%, rgba(58,58,58,1) 100%);
 
  }
-/* hero image */
 
-
- /* .hero-image{
-     height:83%;
-     width:100%;
-     background-position:center;
-     background-size:cover;
-     background-repeat:no-repeat;
-     object-position:bottom;
-     background-image:url(../images/bkg.jpg);
-     z-index:1;
- } */
-
-
- /* @media (min-width: 1440px) {
-    #container div {
-        background-image:url(../images/bkg.jpg);
-    }
-} */
-
-@media (min-width: 1024px) {
+/* hero image and responsive background.  Styled to this particular min-width because that was the ideal width for this paricular background image*/
+@media (min-width: 1263px) {
     .hero-image{
         height:83%;
         width:100%;
@@ -140,10 +124,66 @@ h2 {
     }
 }
 
+@media (min-width:1024px) and (max-width: 1262px) {
+    #container div {
+        background-color:#3a3a3a;
+        width:1024px;
+    }
+    #description{
+        width:1024px;
+        height:300px;
+        overflow:hidden;
+        font-size:2em;
+        margin-left:1%;
+        color:#ffc06e;
+   
+    }
+    h2 {
+        font-size:200%;
+        color:#75ce9f;
+        text-align:center;
+        background-color:ghostwhite;
+        padding:1%;
+        width:50%;
+        margin: 0 auto;
+        border-radius:10px;
+        opacity:80%;
+        position:relative;
+        top:10px;
+    }
+}
+
+ @media (min-width: 425px) and (max-width:767px) {
+    #container div {
+        background-color:#3a3a3a;
+        width:425px;
+    }
+    #description{
+        width:425px;
+        height:300px;
+        overflow:hidden;
+        font-size:1.3em;
+        margin-left:1%;
+        color:#ffc06e;
+    }
+    h2 {
+        font-size:200%;
+        color:#75ce9f;
+        text-align:center;
+        background-color:ghostwhite;
+        padding:1%;
+        width:50%;
+        margin: 0 auto;
+        border-radius:10px;
+        opacity:80%;
+        position:relative;
+        top:10px;
+    }
+}
  @media (min-width:768px) and (max-width: 1023px) {
     #container div {
         background-color:#3a3a3a;
-        width=768px;
+        width:768px;
     }
     #description{
         width:700px;
@@ -171,14 +211,14 @@ h2 {
  @media (min-width: 425px) and (max-width:767px) {
     #container div {
         background-color:#3a3a3a;
-        width=425px;
+        width:425px;
     }
     #description{
         width:425px;
         height:300px;
         overflow:hidden;
         font-size:1.3em;
-        margin-left:1%;
+        margin-left:3%;
         color:#ffc06e;
     }
     h2 {
@@ -199,14 +239,15 @@ h2 {
  @media (min-width: 375px) and (max-width:424px) {
     #container div {
         background-color:#3a3a3a;
-        width=375px;
+        width:375px;
     }
     #description{
         width:375px;
-        height:300px;
+        height:270px;
         overflow:hidden;
-        font-size:1.15em;
-        margin-left:1%;
+        font-size:1.16em;
+        margin-left:2%;
+        margin-right:5%;
         color:#ffc06e;
     }
     h2 {
@@ -227,14 +268,14 @@ h2 {
  @media (min-width: 320px) and (max-width:374px) {
     #container div {
         background-color:#3a3a3a;
-        width=320px;
+        width:320px;
     }
     #description{
         width:320px;
-        height:300px;
+        height:250px;
         overflow:hidden;
-        font-size:1.08em;
-        margin-left:1%;
+        font-size:1em;
+        margin-left:2%;
         color:#ffc06e;
     }
     h1{
@@ -257,32 +298,6 @@ h2 {
         top:10px;
     }
 }
-
-/* @media (max-width: 425px) {
-    #container div {
-        background-color:#3a3a3a;
-    }
-} */
-
-/* @media (max-width: 320px) {
-    #container div {
-        background-color:#3a3a3a;
-    }
-}
-
-@media (max-width: 375px) {
-    #container div {
-        background-color:#3a3a3a;
-    }
-} */
-
-
-
-
- 
-
- /* description */
-
 
 /* riddles */
 .riddle {
@@ -348,7 +363,6 @@ label {
     text-align:left;
 }
 
-
 #answer {
     background-color:ghostwhite;
     margin:1%;  
@@ -362,11 +376,11 @@ label {
     top:-12px;
 }
 
-input[type="text"]::placeholder {  
+/* input[type="text"]::placeholder {  
     float:top;
     vertical-align:top;
     text-align:top;
-}
+} */
 
 section form label {
     color:#ffc06e;
@@ -389,6 +403,16 @@ section form{
     width:60%;
     margin:0 auto;
 }
+
+@media (min-width: 768px) and (max-width:1023px) {
+}
+@media (min-width: 425px) and (max-width:767px) {
+}
+@media (min-width: 375px) and (max-width:424px) {
+}
+@media (min-width: 320px) and (max-width:374px) {
+}
+
 
 /* footer */
 footer {
