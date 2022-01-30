@@ -6,7 +6,7 @@ My objective in this project was to create a site in which one could read the qu
 
 The live site can be found here:
 
-<!-- ![website preview](live site link)) -->
+https://samagosti7.github.io/HTML-CSS-Essentials-Project/
 
 # Table of Contents
 <a name="table-of-contents"></a>
@@ -153,6 +153,8 @@ One issues was resolved on the form page using the validator. I had an input wit
 [Go to Table of Contents](#table-of-contents)
 
 This site was deployed to Github pages, on which a link was generated with a live version of the website. This link is below: 
+https://samagosti7.github.io/HTML-CSS-Essentials-Project/
+
 
 # 6. Credits <a name="credits"></a>
 [Go to Table of Contents](#table-of-contents)
