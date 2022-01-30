@@ -12,6 +12,7 @@ body{
 nav ul{
     list-style:none;
     background: rgb(1,166,111);
+    /* The following gradient background was provided by https://cssgradient.io/  */
     background: radial-gradient(circle, rgba(1,166,111,1) 70%, rgba(58,58,58,1) 100%);
     margin:0;
     padding:0 0 0.8% 0;
@@ -180,6 +181,7 @@ h2 {
         top:10px;
     }
 }
+
  @media (min-width:768px) and (max-width: 1023px) {
     #container div {
         background-color:#3a3a3a;
@@ -310,6 +312,7 @@ h2 {
     border: solid 3.2px #3a3a3a;
     font-size:1.3em;
 }
+
 .answer {
     color:#01A66f;
     text-align:center;
@@ -337,8 +340,6 @@ h2 {
 
 
 }
-
-
 
 /* form */
 #first-name {
@@ -369,6 +370,7 @@ h2 {
     font-size:1.3em;
 }
 
+/* The style rule format here was taken from https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1 */
 #question::-webkit-input-placeholder {
     font-family:sans-serif;
 }
@@ -381,6 +383,7 @@ h2 {
     font-size:1.2em;
 }
 
+/* The style rule format here was taken from https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1 */
 #answer::-webkit-input-placeholder {
     font-family:sans-serif;
 }

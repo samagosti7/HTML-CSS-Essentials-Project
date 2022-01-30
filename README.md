@@ -1,3 +1,68 @@
+# HTML-CSS Essentials Project 1--riddlebank.com
+##Introduction
+I have always been a fan of riddles, so wanted to create a site which could be the starting point of a large bank into which users could submit their own favorite riddles, growing the bank past the small number of riddles I submitted originally.  
+
+My objective in this project was to create a site in which one could read the question portion of a riddle, then reveal the solution portion in their own time after having tried to solve it. I also pushed to successfully implement several of the pieces we'd learned in the Code Institute to date, with particular emphasis on the HTML and CSS essentials sections.  
+
+The live site can be found here:
+
+![website preview](insert image link her ein assets)
+
+##Table of Contents
+
+#Table of Contents
+    [1. User Experience (#ux)
+    -[User Expectations](#user-expectations)
+    -[Color scheme and font](#color-scheme)
+    -[Wire frames (balsamiq)](#wireframes)
+        -[Home page](#home-page)
+        -[Riddles page](#riddles-page)
+        -[Form page](form-page)
+    
+    [2. Features](#features)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Table of Contents:
     Project Overview:  Line 
     Project Motivation: Line
