@@ -6,7 +6,7 @@ My objective in this project was to create a site in which one could read the qu
 
 The live site can be found here:
 
-![website preview](insert image link her ein assets)
+![website preview](live site link))
 
 ## Table of Contents
 <a name="table-of-contents"></a>
@@ -19,16 +19,19 @@ The live site can be found here:
         -[Home page](#home-page)
         -[Riddles page](#riddles-page)
         -[Form page](#form-page)
-    
+
     [2. Features](#features)
+
     [3. Technologies used](#technologies-used)
-    [4. Testing](#testing)
-    [5. Bugs](#bugs)
-    [6. Deployment](#deployment)
-    [7. Credits](#credits)
+
+    [4. Bugs](#bugs)
+
+    [5. Deployment](#deployment)
+
+    [6. Credits](#credits)
 
 <a name="ux"></a>
-#1. User Experience
+# 1. User Experience
 [Go to Table of Contents](#table-of-contents)
 
 <a name="user-goals"></a>
@@ -57,7 +60,7 @@ Ghostwhite
 
 <a name="wireframes"></a>
 ## Wire Frames
-In coordination with the mentor of this project, we used Balsamiq (https//balsamiq.com/) to create the wireframes for this project. Three wireframe pages were created, all in mobile view, and these were then used as guidelines for the project.  
+In coordination with the mentor of this project, we used Balsamiq (https//balsamiq.com/) to create the wireframes for this project. Three wireframe pages were created, all in mobile view, and these were then used as guidelines for the project.
 
 <a name="home=page></a>
 ### Home Page
@@ -110,97 +113,37 @@ The screenshot of the riddles page is below:
 The screenshot of the form page is below:
 ![riddles page screenshot](./assets/images/form-page-ss)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Table of Contents:
-    Project Overview:  Line 
-    Project Motivation: Line
-    Directions/Description:  Line
-    Validation Screenshots:  Line
-    Bugs:  Line
-    Credits:  Line
-
-#Milestone Project 1--HTML-CSS essentials project
-
-The ability to create a website is a key skill for web developers. This project is the first of what will hopefully be many sites built in my coding career.  
-
-##Motivation
-I love riddles myself, and wanted to create a page that would serve as an online bank of riddles ready to be used whenever the user needed.  While 5 riddles isn't exactly a bank, it is a reasonable start and sufficient within the scope of the project.  Going forward, I would look to increase the riddle count, and possibly add a way to create a group of user-favorited riddles, to appear in a specific section or page of the site.  This mini-bank of favorited riddles is the initial vision I'd had for the site, and was my motivation for creating it.  
-
-##Directions
-Any initial link should take you directly to the landing page, titled home.  This features a hero image, and a small about us section.  At the top, as will be present on all site pages, there is a nav element that can take you to the two other pages.  
-
-Page 2, titled Riddles, is the main content page, featuring 5 riddles and their solutions.  The solutions were given a pesudo class of hover, such that in order to see the solution the user must hover over the relevant area.  The hoverable area isn't the entire width of the page, instead it stays closer to the center of the page where the answer will appear--this is to lessen the chances of a user prematurely revealing an answer accidentally.  
-
-The final link will lead you to page 3, the form page where a user would theoretically be able to submit their own riddles to the site. At the moment, of course this won't happen, as the form is being sent only to this URL: https://formdump.codeinstitute.net, the default form practice URL provided to us. However one can test the inputs on this page as if they were submitting their own riddle for consideration.  
-
-##Validation Screenshots--before and after
-
-##Bugs
-At the very bottom of the page, there are two small margin-like areas of green surrounding the social media footer. The area at the top of the footer is intentional, however the area at the bottom is not, and I consider it a bug. I entered 0 margin and padding for the overarching html and body elements, and inspecting the area on dev-tools yielded no hints to where it comes from.
-
-Mysterious small grey border around the dividing line (i.e., the styled hr with id "hero-hr") separating nav bar from hero image/header on home page. Less noticeable grey semi-border on the more general styler hr, not there by design.  
-
-
-
-##Credits
-Code on lines 160-163 and 174-183 were taken from google searches on the subject of placeholder text.  Credit to https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1
+The screenshot of the validation message is below:
+![validation page screenshot](./assets/image/validation-ss)
+
+# 3. Technologies used
+[Go to Table of Contents](#table-of-contents)
+*HTML5--HTML5 was used for the structure of all 3 pages of the site. 
+*CSS3--A single CSS3 page was referenced on all HTML pages and used to style all HTML elements. 
+*balsamiq--Wireframes created via a balsamiq template were used to preview mobile versions of the site. 
+*Font Awesome--Font awesome was used to import icons for the social media links. 
+*Chrome--Chrome devtools were used to debug and test the site.  
+*Github--Github was used to create the repository, and all commits were pushed through Github. 
+*Gitpod--Gitpod was used as the main editor for the site. 
+*W3C--The W3C Validation service was used to validate both the CSS and HTML pages. 
+
+# 4. Bugs
+[Go to Table of Contents](#table-of-contents)
+
+--There is a small green margin around the top and bottom of the footer.  The appearance is fine, but I don't know why it is there and it is not there by design.
+--There is a slight difference to the shades of opacity for the About Us header as opposed to all the other headers on which opacity was applied. 
+--There is a mysterious border on the hero-hr element diving the nav bar from the hero image on the home page. There is also a less noticeable inconsistency in the color of the other hr elements used as dividers.  
+
+# 5. Deployment
+[Go to Table of Contents](#table-of-contents)
+
+This site was deployed to Github pages, on which a link was generated with a live version of the website. This link is below: 
+
+# 6. Credits
+[Go to Table of Contents](#table-of-contents)
+
+### Code
+Code on lines 368-370 and 381-383 were taken from google searches on the subject of placeholder text.  Credit to https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1
 
 Header content closely follows the header laid out in the Code Institute Lesson "Creating your first gitpod project. Credit to https://codeinstitute.net/se/
 
@@ -210,6 +153,7 @@ Background gradient for nav bar taken from https://cssgradient.io/
 
 Overall complemenetary color scheme taken from https://colors.dopely.top/inside-colors/green-color-palette-inspirations-with-names-hex-codes/
 
+Overall layout, structure, and some wording of README.md document came from using https://raw.githubusercontent.com/dhakal79/Portfolio-project-MS1/master/README.md as a template. I had been recommended to follow this structure from a mentor and it was invaluable.  
 
-
-
+### Content
+All riddles were input from me from memory. However, I should credit the J.R.R. Tolkien for riddles 1 and 4, as I know I was remembering them from his book, The Hobbit. 
